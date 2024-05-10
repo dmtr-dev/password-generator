@@ -14,5 +14,3 @@ for n in range(number):
         password += random.choice(chars)
     print(password)
     pyperclip.copy(password)
-
-input("\nPress Enter to exit...")
